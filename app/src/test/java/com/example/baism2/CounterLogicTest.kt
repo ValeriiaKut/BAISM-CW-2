@@ -12,7 +12,7 @@ class CounterLogicTest {
         val counter = CounterLogic()
         Assert.assertEquals(0, counter.value)
     }
-
+//2
     @Test
     fun increment_increasesValueByOne() {
         val counter = CounterLogic(0)
