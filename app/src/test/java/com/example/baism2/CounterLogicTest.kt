@@ -16,7 +16,7 @@ class CounterLogicTest {
     @Test
     fun increment_increasesValueByOne() {
         val counter = CounterLogic(0)
-        Assert.assertEquals(1, counter.increment())
+        Assert.assertEquals(999, counter.increment())
         Assert.assertEquals(1, counter.value)
     }
 //3
@@ -26,7 +26,7 @@ class CounterLogicTest {
         Assert.assertEquals(2, counter.decrement())
         Assert.assertEquals(2, counter.value)
     }
-
+//4
     @Test
     fun reset_setsValueToZero() {
         val counter = CounterLogic(10)
