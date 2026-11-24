@@ -19,7 +19,7 @@ class CounterLogicTest {
         Assert.assertEquals(1, counter.increment())
         Assert.assertEquals(1, counter.value)
     }
-
+//3
     @Test
     fun decrement_decreasesValueByOne() {
         val counter = CounterLogic(3)
